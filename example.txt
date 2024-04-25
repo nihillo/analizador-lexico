@@ -1,0 +1,9 @@
+-- ejemplo de función
+function mayorDeEdad (edad: Integer) return Boolean is
+begin
+    if edad>17 then
+    return True;
+    else
+    return False;
+    end if;
+end mayorDeEdad;
